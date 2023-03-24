@@ -1,0 +1,21 @@
+
+.chatBox {
+  display: flex;
+  flex-direction: column;
+  border-radius: 40px;
+  color: white;
+}
+
+.chat-content-box{
+  padding: 30px;
+}
+
+.home{
+  text-align: start;
+  background-color: blue;
+}
+
+.guest{
+  text-align: end;
+  background-color: gray;
+}
