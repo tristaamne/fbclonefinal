@@ -3,7 +3,7 @@ import "./App.css";
 import ChatLog from "./components/chatlog";
 
 function App() {
-  const [chatLine, setChatLine] = useState({});
+  const [chatLine, setChatLine] = useState({id: localStorage.getItem("username")});
   const [chatLog, setChatLog] = useState([]);
   const [incharge, setIncharge] = useState("")
   function sendHandle() {
