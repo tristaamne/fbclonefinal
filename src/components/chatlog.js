@@ -3,7 +3,7 @@ import "./chatlog.css";
 
 function ChatLog({chatLine, setChatLine, chatLog, setChatLog}) {
   const testArr = [];
-
+// this is mah test
   return (
     <div className="chat-line">
       {chatLog.map((e, index) => {
